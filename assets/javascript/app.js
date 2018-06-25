@@ -40,10 +40,12 @@ function showGifs() {
         }).done(function (response) {
 
             //log the respone data to a variable, console log
-            var gifData = response.data;
-            console.log(response.data);
+            
 
             $("#gifs").empty();
+
+            var gifData = response.data;
+            console.log(response.data);
 
             for (var i = 0; i < gifData.length; i++) {
                 var newGifDiv = $("<div class='gifItem'>");
@@ -107,7 +109,7 @@ function loadMoreButtons() {
 }
 
 $(document).ready(function(){
-    makeButtons();
     loadMoreButtons();
+    makeButtons();
     showGifs();
-})
+});

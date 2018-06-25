@@ -63,6 +63,7 @@ p {
 #new-topic {
     margin-top: 10px;
     margin-bottom: 3px;
+    background-color: black;
 }
 
 #gif-form {
