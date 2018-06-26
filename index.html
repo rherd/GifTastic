@@ -17,32 +17,35 @@
     <header>
         GifTastic!
     </header>
-<div class = "container">
-    <div id="buttons">
-        
-    </div>
+    <div class="container">
+        <div id="buttons">
 
-    <div class="row">
-        
-
-        <div class="col-md-4 col-xs-12 main-form">
-            <div class="form">
-                <label class="control-label" id="gif-form" for="userInput">Choose a new Gif!</label>
-                <input type="text" class="form-control" id="userInput">
-            </div>
-
-            <div class="form">
-                <div>
-                    <input id="new-topic" type="submit" class="btn btn-primary" value="Submit">
-                </div>
-            </div>
         </div>
 
-        <div class="col-md-8 col-xs-12" id="gifs">
-                Click a button to display some gifs!
+        <div class="row">
+
+
+            <div class="col-md-2 col-xs-12 main-form">
+                <div class="form">
+                    <label class="control-label" id="gif-form" for="userInput">Choose a new Gif!</label>
+                    <input type="text" class="form-control" id="userInput">
+                </div>
+
+                <div class="form">
+                    <div>
+                        <input id="new-topic" type="submit" class="btn btn-primary" value="Submit">
+                    </div>
+                </div>
+
+                <p id="description">
+                    Click a button to load some Gifs! If you want to add more buttons, use the above form to create a new Gif category of your choosing. You can then click on the new button to load the Gifs.
+                </p>
             </div>
+
+            <div class="col-md-10 col-xs-12" id="gifs">
+            </div>
+        </div>
     </div>
-</div>
 
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

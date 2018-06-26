@@ -8,6 +8,7 @@ header {
     border-style:solid;
     border-width:0.5px;
     border-color:black;
+    color:black;
 }
 
 .container {
@@ -56,6 +57,7 @@ p {
     border-width:2.5px;
     border-radius:5px;
     background-color:darkcyan;
+    color:black;
     /* max-height:100px;
     max-width:450px; */
 }
@@ -68,6 +70,17 @@ p {
 
 #gif-form {
     font-family: 'Shrikhand', cursive;
+}
+
+#description {
+    color:black;
+    background-color: white;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 10px;
+    font-family: 'Shrikhand', cursive;
+    margin-top:7px;
 }
 
 @media only screen and (max-width: 549px) {
@@ -94,7 +107,13 @@ p {
         border-width:1px;
         border-color:black;
         border-radius:5px;
+        margin-bottom:5px;
 
+    }
+
+    #description {
+        max-width:100%;
+        margin-top:6px;
     }
 }
 
